@@ -10,7 +10,7 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
 import uvicorn
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 MESSAGE_BUF_LIMIT = 2000
 HELP_INFO_LIMIT = 3000
 CONTEXT_LIMIT = MESSAGE_BUF_LIMIT + HELP_INFO_LIMIT
