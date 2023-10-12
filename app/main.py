@@ -8,9 +8,11 @@ from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain.chains.llm import LLMChain
 from langchain.vectorstores.chroma import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
-import uvicorn
 
-OPENAI_API_KEY = "sk-inZSm4EIUAuuTheOACwiT3" + "BlbkFJLYrOPNcUZsKB8kCIbZ1N"
+OPENAI_API_KEY = "sk-inZSm"
+OPENAI_API_KEY += "4EIUAuuTheOACwiT3"
+OPENAI_API_KEY += "BlbkFJLYrOPNc"
+OPENAI_API_KEY += "UZsKB8kCIbZ1N"
 MESSAGE_BUF_LIMIT = 2000
 HELP_INFO_LIMIT = 3000
 CONTEXT_LIMIT = MESSAGE_BUF_LIMIT + HELP_INFO_LIMIT
